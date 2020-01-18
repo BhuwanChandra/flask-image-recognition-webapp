@@ -1,0 +1,10 @@
+Werkzeug==0.14.1
+Flask==0.12.2
+numpy==1.17.2
+Keras==2.2.5
+tensorflow==1.14.0
+opencv-python
+gevent
+pillow
+h5py
+gunicorn==19.7.1
