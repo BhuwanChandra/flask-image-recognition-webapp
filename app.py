@@ -23,7 +23,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH = 'models/monuments.h5'
+MODEL_PATH = 'models/monuments1.h5'
 
 # Load your trained model
 model = load_model(MODEL_PATH)
@@ -51,9 +51,9 @@ def model_predict(img_path, model):
     # print(classes)
 
     if classes == 1:
-        prediction = 'dog'
+        prediction = 'taj mahal'
     else:
-        prediction = 'cat'
+        prediction = 'hawa mahal'
 
     return prediction
 
