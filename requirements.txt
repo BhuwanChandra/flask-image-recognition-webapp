@@ -23,7 +23,7 @@ decorator==4.4.1
 defusedxml==0.6.0
 docutils==0.16
 entrypoints==0.3
-Flask==0.12.2
+Flask==1.0
 gast==0.3.2
 gevent==1.4.0
 google-pasta==0.1.8
